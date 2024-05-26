@@ -5,7 +5,7 @@
   background-image: url(../icons/icon-phone.png);
   background-size: cover;
 
-  @include onTablet {
+  @include on-tablet {
     height: 32px;
     width: 32px;
   }

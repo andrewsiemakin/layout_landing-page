@@ -16,7 +16,7 @@
     line-height: 36px;
     color: #FFF;
 
-    @media (min-width: $tablet-min-with) {
+    @media (min-width: $tablet-min-width) {
       font-size: 48px;
       line-height: 48px;
     }
@@ -24,9 +24,10 @@
 
   &__bottom {
     padding-bottom: 40px;
+
     @include content-padding-inline;
 
-    @media (min-width: $tablet-min-with) {
+    @media (min-width: $tablet-min-width) {
       padding-bottom: 64px;
 
     }

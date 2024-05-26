@@ -8,7 +8,7 @@
   &__top {
     margin-bottom: 32px;
 
-    @media (min-width: $tablet-min-with) {
+    @media (min-width: $tablet-min-width) {
       margin-bottom: 56px;
     }
   }
